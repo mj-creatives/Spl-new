@@ -318,7 +318,7 @@ svg{vertical-align:middle}input{margin:0;font-family:inherit;font-size:inherit;l
                                 </div>
                                 <!-- mobile menu activation -->
                                 <div class="side-menu-icon d-xl-none text-end">
-                                    <button class="side-toggle"><i class="far fa-bars"></i></button>
+                                    <button class="side-toggle" aria-label="Toggle"><i class="far fa-bars"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -885,7 +885,8 @@ svg{vertical-align:middle}input{margin:0;font-family:inherit;font-size:inherit;l
                                 </div>
                                 <div class="col-md-6 custom-pad-20">
                                     <div class="tp-contact-form-field select-field-arrow mb-20">
-                                        <select name="serviceType">
+                                      <label for="serviceType" style="all: revert;"></label>
+                                        <select name="serviceType" id="serviceType">
                                             <option name="General Question" value="General Question">General Question</option>
                                             <option name="House Cleaning" value="House Cleaning">House Cleaning</option>
                                             <option name="Commercial Cleaning" value="Commercial Cleaning">Commercial Cleaning</option>
