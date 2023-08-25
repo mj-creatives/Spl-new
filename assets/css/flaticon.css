@@ -1,6 +1,7 @@
 @font-face {
-font-family: "flaticon";
+  font-family: "flaticon";
   src: url("../fonts/flaticon.ttf?d5b396c637120e6ef47a69b9a74cc5cc") format("truetype"), url("../fonts/flaticon.woff?d5b396c637120e6ef47a69b9a74cc5cc") format("woff"), url("../fonts/flaticon.woff2?d5b396c637120e6ef47a69b9a74cc5cc") format("woff2"), url("../fonts/flaticon.eot?d5b396c637120e6ef47a69b9a74cc5cc#iefix") format("embedded-opentype"), url("../fonts/flaticon.svg?d5b396c637120e6ef47a69b9a74cc5cc#flaticon") format("svg");
+  font-display: swap;
 }
 
 i[class^="flaticon-"]:before,
