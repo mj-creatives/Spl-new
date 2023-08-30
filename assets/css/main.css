@@ -2766,10 +2766,10 @@ only screen and (min-width:768px) and (max-width:991px) {
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 575px) {
   .tp-about-img img {
-    height: 280px;
-    width: 280px
+    height: 180px;
+    width: 180px
   }
 }
 
